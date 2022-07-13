@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="test_image_and_result col-xs-12">
+
+            <li class="col-sm-4 col-xs-12 img">
+                <b style="font-size:larger">Test Image - Scissors</b>
+                <img src="sy-scissors__0112301_pe263788_s5-removebg-preview.png" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12 result">
+                Output on <b>Mobilenet Model</b> - 
+                <span>Scissors</span>
+            </h5>
+        </div>
+        <br>
+
+        <div class="test_image_and_result2 col-xs-12">
+
+            <li class="col-sm-4 col-xs-12 img">
+                <b style="font-size:larger">Test Image - Mug</b>
+                <img src="DW100247-removebg-preview.png" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12 result">
+                Output on <b>Mobilenet Model</b> - 
+                <span>Cup, Mug</span>
+            </h5>
+        </div>
+        <br>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
